@@ -450,7 +450,7 @@ export default function BlogPage() {
           </p>
 
           <div className="max-w-lg mx-auto">
-            <div className="flex gap-4">
+            <div className=" md:flex gap-4">
               <input
                 type="email"
                 placeholder="Enter your email address"

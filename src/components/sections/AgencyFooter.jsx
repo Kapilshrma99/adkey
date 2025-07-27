@@ -51,7 +51,7 @@ export default function AgencyFooter() {
                 
                 <div>
                   <Link href="/" className="text-2xl font-bold text-white hover:text-blue-400 transition">
-                   <img src="/logo.png" alt="adKey Logo" className="h-10 w-auto sm:h-12" />
+                   <img src="/Logo.png" alt="adKey Logo" className="h-10 w-auto sm:h-12" />
                     </Link>
                   <p className="text-blue-200 text-sm">Digital Marketing Agency</p>
                 </div>

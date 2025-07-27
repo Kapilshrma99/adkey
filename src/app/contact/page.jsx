@@ -536,7 +536,7 @@ const handleAction = (method) => {
               </div>
 
               {/* Emergency Contact */}
-              <div className="bg-gradient-to-r from-red-500 to-pink-500 rounded-3xl p-8 text-white">
+              <div className="bg-gradient-to-r from-red-500 to-pink-500 rounded-3xl p-8 text-white ">
                 <h3 className="text-xl font-bold mb-4">Need Urgent Help?</h3>
                 <p className="mb-6 opacity-90">
                   For urgent support or emergency assistance with your campaigns.
