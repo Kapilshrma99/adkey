@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import styles from './Hero.module.css';
-
+import { motion } from 'framer-motion';
 const Hero = () => {
   const [website, setWebsite] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -65,9 +65,11 @@ const Hero = () => {
         <div className={styles.contentGrid}>
           {/* Left Content */}
           <div className={styles.heroContent}>
-            <div className={styles.tagline}>
+            <motion.div   initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }} className={styles.tagline}>
               DIGITAL MARKETING THAT DRIVES REVENUE®
-            </div>
+            </motion.div>
             
             <h1 className={styles.heroTitle}>
               Unlock Revenue Growth through Digital Marketing

@@ -168,7 +168,8 @@ const RevenueSection = () => {
 
         {/* Stats or CTA */}
         <div className={styles.statsSection}>
-          <div className={styles.statItem}>
+          <div
+           className={`${styles.statItem }`}>
             <div className={styles.statNumber}>$10B+</div>
             <div className={styles.statLabel}>Revenue Generated</div>
           </div>

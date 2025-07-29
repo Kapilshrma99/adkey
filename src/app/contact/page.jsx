@@ -102,7 +102,7 @@ export default function ContactPage() {
     {
       icon: <Mail className="w-8 h-8" />,
       title: 'Email',
-      info: 'hello@adkey.in',
+      info: 'ajay@adkeymedia.in',
       description: 'We reply within 2 hours',
       action: 'Send Email',
       gradient: 'from-blue-500 to-cyan-500',
@@ -478,9 +478,9 @@ const handleAction = (method) => {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        Adkey Digital Marketing Agency<br />
-                        Sonia Vihar, Delhi-110094<br />
-                        India
+                        Adkey Digital Marketing<br />
+                        220A,1st floor<br />
+                        Rama Market, Pitampura, Delhi-110034
                       </p>
                     </div>
                   </div>

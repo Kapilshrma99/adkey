@@ -136,7 +136,11 @@ export default function AgencyFooter() {
                 </div>
                 <div>
                   <h4 className="text-white font-medium mb-1">ADDRESS :</h4>
-                  <p className="text-gray-300">Sonia Vihar, Delhi-110094</p>
+               <p className="text-white">
+                        Adkey Digital Marketing<br />
+                        220A,1st floor<br />
+                        Rama Market, Pitampura, Delhi-110034
+                      </p>
                 </div>
               </div>
 
